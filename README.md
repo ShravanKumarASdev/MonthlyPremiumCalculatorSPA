@@ -1,0 +1,2 @@
+# MonthlyPremiumCalculatorSPA
+Angular project for MonthlyPremiumCalculator
