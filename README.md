@@ -1,27 +1,27 @@
 # MonthlyPremiumCalculatorSPA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+![image](https://user-images.githubusercontent.com/62795873/155902932-76c090e9-d133-447f-9d6c-4ee682ae2daf.png)
 
-## Development server
+**Assumptions made**
+1. Considered Date of birth minimum value as "1922-03-01"(Maximum age around 100 years) 
+2. Name -> Should only contain letters and spaces
+3. Data of birth -> Minimum value - "1922-03-01", Maximum value -> Current date
+4. Death Sum Insured to be a non-negative rounded value
+5. Validations happen on Occupation change and on Submit
+6. Added Reset button to reset all the fields
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**Folder structure**
+Under "app" folder, "premium-calculator" hosts all the SPA logic with 3 folders in it.
+1. components -> to hold components related to Monthly Premium calculation
+2. models -> to hold model classes for SPA and API interaction
+3. services -> For interating with API to retrieve data
 
-## Code scaffolding
+**Validation screenshots**
+![image](https://user-images.githubusercontent.com/62795873/155903151-e6349022-3efa-4045-80f6-33e64acb9a5e.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://user-images.githubusercontent.com/62795873/155903198-cf405cac-fe18-470b-8f13-4f46aaded828.png)
 
-## Build
+**Premium popup**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://user-images.githubusercontent.com/62795873/155903428-8eb7b8b5-ae8f-48f7-b2b2-0dd4af26aeaa.png)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
